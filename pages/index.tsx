@@ -40,6 +40,7 @@ export default function Home() {
     const title = window.prompt("Name of the event");
     if (!title) return;
     const description = window.prompt("description");
+    if (!description) return;
 
     day?.set(id, {
       id,
